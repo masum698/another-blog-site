@@ -1,0 +1,537 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: #fafafa;
+    font-size: 62.5%;
+    font-family: 'Noto Sans', sans-serif;
+}
+ body{
+    width: 120rem;
+    max-width: 100%;
+    background-color: #fff;
+    margin: auto;
+}
+
+.btn{
+ 
+    font-size: 2rem;
+    text-transform:  capitalize;
+    border:none;
+    padding: .5rem;
+    border-radius: 0.5rem;
+    margin:0.5rem;
+    width: 130px;
+}
+
+.section-center{
+    text-align: center;
+    padding: 5rem 2rem;
+
+}
+.section-heading{
+    font-size: 3rem;
+    color: #222;
+    text-transform: uppercase;
+}
+
+hr{
+    border-bottom: none;
+    width:70%;
+    border:1px solid rgba(95, 88, 49, 0.952);
+    margin: auto;
+    
+}
+
+
+/* header start here */
+header{
+    min-height: 5vh;
+    background-color:rgb(8, 206, 255);
+    padding:2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:5rem;
+    
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.logo{
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    color:#fff;
+     
+}
+nav ul{
+    display: inline;
+
+}
+li a{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    margin-right: 2rem;
+    margin: 1rem;
+    padding: 0.4rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    color:#fff;
+    transition: 0.5s;
+    
+}
+li a:last-child{
+    margin-right: 0;
+
+}
+li a:hover{
+    background-color: coral;
+    border-radius: 0.5rem;
+}
+/* header end here */
+
+
+
+/* banner-section start */
+.banner-section{
+    min-height: 95vh;
+    padding:5rem 2rem;
+    background-image: url(images/backgrond.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    /* height:  30rem; */
+    
+}
+.banner-content{
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    color:#fff;
+    padding-top: 12rem;
+}
+.banner-heading{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 2rem;
+}
+.banner-desc{
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+     
+}
+.banner-top{
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-family: 'Lobster', cursive;
+    color: rgb(167, 152, 17);
+    text-transform: capitalize;
+}
+.icon-style{
+    font-size: 3rem;
+    margin:1rem;
+} 
+
+.btn-1{
+
+    margin-top: 3rem;
+    background-color:rgb(8, 206, 255);
+    transition: all .4s;
+    
+}
+
+.btn-2{
+    background-color:rgb(228, 151, 8);
+    transition: all .4s;
+     
+}
+.btn-1:hover, .btn-2:hover{
+    transform: scale(1.2);
+}
+/* banner-section end */
+
+/* work section start here */
+
+#work-section{
+    min-height: 95vh;
+    padding:5rem 2rem;
+
+}
+
+.work-desc{
+    width:60%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    text-align: justify;
+    
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    
+} 
+.card{
+    margin:1rem;
+     padding: 0.5rem;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0.1rem 0.1rem 0.3rem rgb(70, 68, 68),
+    -0.1rem 0rem 0.3rem;
+    margin-top: 5rem;
+}
+.card-logo i{
+    font-size: 3rem;
+    height: 6rem;
+    width: 6rem;
+    border: solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: rgb(22, 167, 252);
+    color:#fff;
+    
+}
+.card-heading{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: rgb(9, 174, 250);
+    margin: 1rem;
+}
+.card-desc{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+/* work section end here */
+
+
+/* team work section start here */
+#team-work-section{
+    padding: 5rem 2rem;
+    min-height: 95vh;
+}
+.team-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+.card-img img{
+    height: 10rem;
+    width: 10rem;
+    border:5px solid rgb(9, 174, 250);
+    border-radius: 50%;
+    
+
+}
+.img-desc{
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: rgb(12, 85, 85);
+}
+.social-link{
+    color:rgb(70, 103, 139);
+    margin: 0.8rem;
+    transition: all 0.4s;
+}
+.icon-style{
+    transition: all 0.4s;
+}
+.icon-style:hover{
+     color:rgb(17, 105, 206);
+     transform: scale(1.1);
+}
+
+/* team work section end here */
+
+/* bottom-banner start */
+#bottom-banner-section{
+    background-image: url(images/henning-witzel-ukvgqriuOgo-unsplash.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+     
+    text-align: center;
+
+ 
+}
+.bottom-banner-content{
+    padding:15rem;
+}
+.bottom-heading{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 1rem;
+    color:rgb(230, 245, 17)
+
+}
+.bottom-desc{
+    font-size: 1.5rem;
+    margin:1rem;
+
+}     
+.bottom-btn{
+    margin-top: 3rem;
+    text-transform: lowercase;
+    font-size: 2rem;
+    color:#fff;
+    background-color: #222;
+    padding: 1rem;
+    width:20%;
+}  
+.bottom-btn:hover{
+    background-color: #fafafa;
+    color:rgb(14, 124, 124);
+}  
+/* bottom-banner end */
+
+
+/* contact start here */
+#contact-section{
+    padding: 5rem 2rem;
+    min-height: 95vh;
+    background-color: rgb(73, 69, 69);
+    color:white;
+    
+}
+.contact-item{
+    display: flex; 
+   
+    padding: 5rem;
+    
+    
+    
+} 
+.text-white{
+    color:white;
+}
+.contact-desc{
+    font-size: 1.2rem;
+    margin:1rem;
+}
+
+.contact-heading{
+    font-size: 2.5rem;
+    background-color: rgb(206, 115, 12);
+    width: 50%; 
+    margin: 0 auto;
+    border-radius: .5rem;
+    padding: .6rem;
+    color:#222;
+   
+}
+
+.contact{
+    flex-basis: 50%;
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+}
+.contact-form{
+    flex-basis: 50%;
+     
+}
+
+.icon{
+    flex:3;
+    font-size: 3rem;
+    padding-top: 0.5rem;
+    color:rgb(20, 124, 209);
+
+
+}
+span{
+    flex:7;
+    font-size: 1.5rem;
+     
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+label{
+    font-size: 1.5rem;
+    margin:1rem;
+}
+input, textarea{
+    width: 40rem;
+    height:4rem;
+    border-radius: 0.5rem;
+    border:navajowhite;
+    font-size: 1.5rem;
+    padding: 1rem;
+
+}
+textarea{
+   resize: none;
+   min-height: 12vh;
+}
+.contact-btn{
+    width:20%;
+    background-color: rgb(53, 39, 9);
+    color:#f9fdff;
+    font-size: 2rem;
+    padding:0.5rem;
+    
+    margin: 1rem;
+    border-radius: 0.5rem;
+    border:none;
+   
+}
+
+.contact-btn:hover{
+    background-color: rgb(136, 35, 35);
+
+}
+
+/* contact section end */
+
+footer{
+    padding: 3rem 1rem;
+    min-height: 5vh;
+    background-color: rgb(24, 22, 22);
+    color:white;
+    display: flex;
+     align-items: center;
+   
+    justify-content: space-evenly;
+    
+}
+.more-social-link i{
+    margin :1.5rem;
+    padding: 1rem;
+    font-size: 3rem;
+    background-color:  #fafafa;
+    color:rgb(13, 168, 240);
+   border-radius: 50%;
+    border: 5px solid gray;
+    transition: all 0.4s;
+     
+}
+
+.more-social-link i:hover{
+    background-color: khaki;
+    transform: scale(1.1);
+}
+footer p{
+    
+    font-size: 1.5rem;
+    margin-top:2rem;
+    text-transform: capitalize;
+}
+
+
+/* contact end here */
+
+
+/* responsive start here */
+@media (max-width: 992px){
+    .team-card-container {
+        flex-direction: column;
+        
+    }
+    footer{
+        flex-direction: column;
+    }
+}
+     
+
+
+
+@media (max-width: 768px){
+    nav ul{
+        display: inline-block;
+        font-size: 0.8em;
+    }
+
+
+    .card-container{
+      flex-direction: column;
+    }
+    .team-card-container {
+    flex-direction: column; 
+    }
+
+    .contact-item{
+        flex-direction: column;
+        
+    }
+    .contact-form{
+        margin-top: 2rem;
+    }
+    footer{
+        flex-direction: column;
+        font-size: 1.5rem;
+        
+    }
+
+}
+
+
+@media (max-width: 576px){
+    html{
+        font-size:50.5%;
+    }
+
+    header{
+        flex-direction: column; 
+        align-items: center;
+    }
+    ul li{
+       display: block;
+    }
+    li a{
+        display: block;
+    }
+ 
+
+    .banner-heading{
+      display: block;
+      font-size: 2.5rem;
+    }
+    .btn{
+        width: 90px;
+        font-size:1.5rem ;
+}
+.card-container{
+    width: 95%;
+
+     
+}
+
+.team-card-container{
+    flex-direction: column;
+}
+
+.bottom-btn{
+   width: 25%;
+    font-size: 1.2rem;
+}
+
+footer p{
+    margin-bottom: 2rem;
+    
+}
+.more-social-link i{
+     margin: 0.5rem;
+}
+
+}
+
+
+ /* responsive end here */
